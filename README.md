@@ -1,25 +1,25 @@
-# Homebrew Tap for Vaked Constellation
-
-Official Homebrew tap for installing **Vaked IDE** on macOS.
-
-## Installation
+# homebrew-vaked
+> Sovereign Homebrew tap for VAKED ecosystem tools & applications.
 
 ```bash
-# 1. Tap the repository
-brew tap peterlodri-sec/vaked
-
-# 2. Install Vaked IDE (macOS Application Bundle)
-brew install --cask vaked-ide
+brew tap 8b-is/vaked
 ```
 
-## Quick Update
+## Available Formulas & Casks
+
+### 1. `smart-tree` (`st`)
+Lightning-fast AST-aware directory visualization, quantum context compression, MEM8 archaeological memory, and MCP server.
 
 ```bash
-brew update && brew upgrade --cask vaked-ide
+brew install 8b-is/vaked/smart-tree
 ```
 
-## Links
+### 2. `vaked-ide`
+Native macOS / Web Sovereign IDE for local LLM inference, Rust development, and quantum proof-of-work mining.
 
-- **Portail Showcase:** https://portail-vaked-dev.pages.dev/showcase.html
-- **GitHub Release v1.0.0:** https://github.com/peterlodri-sec/vaked-base/releases/tag/v1.0.0
-- **Constellation Network:** https://vaked.dev/
+```bash
+brew install --cask 8b-is/vaked/vaked-ide
+```
+
+---
+*Maintained with fine touch by Peter Lodri (@0xp3t3rl) · https://vaked.dev*
