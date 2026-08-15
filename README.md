@@ -14,7 +14,14 @@ Lightning-fast AST-aware directory visualization, quantum context compression, M
 brew install 8b-is/vaked/smart-tree
 ```
 
-### 2. `vaked-ide`
+### 2. `magiscanner`
+Deep file security scanner, hash memory, certificate trust neutralization, and supply chain attack guardian for AI/agentic pipelines.
+
+```bash
+brew install 8b-is/vaked/magiscanner
+```
+
+### 3. `vaked-ide`
 Native macOS / Web Sovereign IDE for local LLM inference, Rust development, and quantum proof-of-work mining.
 
 ```bash
